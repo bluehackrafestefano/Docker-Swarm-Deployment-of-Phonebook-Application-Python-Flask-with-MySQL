@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:alpine  # FROM [--platform=<platform>] <image> [AS <name>]
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
